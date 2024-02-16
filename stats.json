@@ -1,26 +1,26 @@
 [
    {
-      "packageCount" : 137027,
+      "packageCount" : 137247,
       "system" : "CARGO"
    },
    {
-      "packageCount" : 1121822,
+      "packageCount" : 1123006,
       "system" : "GO"
    },
    {
-      "packageCount" : 595923,
+      "packageCount" : 596169,
       "system" : "MAVEN"
    },
    {
-      "packageCount" : 2625755,
+      "packageCount" : 2627096,
       "system" : "NPM"
    },
    {
-      "packageCount" : 395322,
+      "packageCount" : 390106,
       "system" : "NUGET"
    },
    {
-      "packageCount" : 490862,
+      "packageCount" : 491328,
       "system" : "PYPI"
    }
 ]
