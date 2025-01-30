@@ -16,4 +16,18 @@ Version 3.0.0-beta2: 188 dependents
 Total unique dependents for org.apache.logging.log4j:log4j-api: 15378
 ```
 
+## extract-history.sh
+
+go over each past commit and copy version of stats.json at that commit in directory `history`
+
+## create-graph.py
+
+Create line charts for number of dependencies over time
+
+### Absolute Growth
+![Package counts over time](package_trends_absolute.png)
+
+### Relative Growth
+![Relative package growth](package_trends_relative.png)
+
 
