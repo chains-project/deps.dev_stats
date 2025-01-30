@@ -24,10 +24,14 @@ go over each past commit and copy version of stats.json at that commit in direct
 
 Create line charts for number of dependencies over time
 
-### Absolute Growth
+### Absolute Growth (deps.dev data)
 ![Package counts over time](package_trends_absolute.png)
 
-### Relative Growth
+Something happened in NPM counting
+
+### Relative Growth (deps.dev data)
 ![Relative package growth](package_trends_relative.png)
+
+Max derivative is Cargo
 
 
