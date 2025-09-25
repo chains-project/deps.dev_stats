@@ -13,8 +13,8 @@
          "treeSize" : 117740831
       }
    ],
-   "rootHash" : "5553989ca036098956e59a675fbe498109d7b1e8a6200edd3cde5ac69ed33017",
-   "signedTreeHead" : "rekor.sigstore.dev - 1193050959916656506\n432305528\nVVOYnKA2CYlW5ZpnX75JgQnXseimIA7dPN5axp7TMBc=\n\n— rekor.sigstore.dev wNI9ajBGAiEAs96kA3AG9EMJgJRclvDsSSdgILe8ZGXOR9T/+9YhBZMCIQD8V/s24kyVwxprjqXHPbXuAg2iKqXaY69dDWp8aC2N2w==\n",
+   "rootHash" : "a89e2d0ab50d6fd5342e608671c33f7cf9d3f4ab6590a191780316ea476ec2bf",
+   "signedTreeHead" : "rekor.sigstore.dev - 1193050959916656506\n437832116\nqJ4tCrUNb9U0LmCGccM/fPnT9KtlkKGReAMW6kduwr8=\n\n— rekor.sigstore.dev wNI9ajBFAiEAltqrdznchR+rqZ23fhLCyVivDmx/DeNaHXE3WRJrv+cCID3chVk8xeU4jKFkHbWJxoScrus3weIJp2oAZQ+QiT22\n",
    "treeID" : "1193050959916656506",
-   "treeSize" : 432305528
+   "treeSize" : 437832116
 }
