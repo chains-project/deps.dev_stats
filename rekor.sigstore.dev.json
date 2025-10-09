@@ -2,19 +2,19 @@
    "inactiveShards" : [
       {
          "rootHash" : "4d006aa46efcb607dd51d900b1213754c50cc9251c3405c6c2561d9d6a2f3239",
-         "signedTreeHead" : "rekor.sigstore.dev - 3904496407287907110\n4163431\nTQBqpG78tgfdUdkAsSE3VMUMySUcNAXGwlYdnWovMjk=\n\n— rekor.sigstore.dev wNI9ajBFAiBBce23FbiULb3OSnamrSkpjQK70XGrGpULzFiVUUOiDgIhAMCkXrfB3p3k2VetRDwDrLjuqBXQNReP4CDn8ntbIqNa\n",
+         "signedTreeHead" : "rekor.sigstore.dev - 3904496407287907110\n4163431\nTQBqpG78tgfdUdkAsSE3VMUMySUcNAXGwlYdnWovMjk=\n\n— rekor.sigstore.dev wNI9ajBEAiBFpgJHMzFbcgDEfcTocE9BB2eBQ+TwJYd1QqYPrCSqiAIgGhU9AQFEcEe9BOOeosjiti6Mo4i5wkzafBh5qwrVvHg=\n",
          "treeID" : "3904496407287907110",
          "treeSize" : 4163431
       },
       {
          "rootHash" : "2b9c578071e120aa84c9858783daa671565e4165f3a7dfa199aad81940299d8e",
-         "signedTreeHead" : "rekor.sigstore.dev - 2605736670972794746\n117740831\nK5xXgHHhIKqEyYWHg9qmcVZeQWXzp9+hmarYGUApnY4=\n\n— rekor.sigstore.dev wNI9ajBEAiBg4V5nJ5jgJVesSdmJHvfrnB7AxuujE3PUAaAwQvYlVwIgK/8YgUugNJ6C3Zo5r/lpB4zdApaZl4eb6AOfX81yk1w=\n",
+         "signedTreeHead" : "rekor.sigstore.dev - 2605736670972794746\n117740831\nK5xXgHHhIKqEyYWHg9qmcVZeQWXzp9+hmarYGUApnY4=\n\n— rekor.sigstore.dev wNI9ajBGAiEArBZcQiEV7lNpnkH9DLTq+x2NUQIRhOHhs460A9DCpjACIQCCuM6WVVjSOLlZWoUUqmSw0zxQj5U0x2TDlNRIzUDM8Q==\n",
          "treeID" : "2605736670972794746",
          "treeSize" : 117740831
       }
    ],
-   "rootHash" : "254b983df0574783b45c6d4108a83c80cfe4cb7a6197e30e48fb217d0da536a1",
-   "signedTreeHead" : "rekor.sigstore.dev - 1193050959916656506\n469566748\nJUuYPfBXR4O0XG1BCKg8gM/ky3phl+MOSPshfQ2lNqE=\n\n— rekor.sigstore.dev wNI9ajBFAiEA98LTDHFc6HnHD+k9sgTo3ppnwGeutAKFA6yhmsNxvx4CIHaKLp9AFenU/1n4Qa/eof330YXwUbnYhhu5hDQ1yCmx\n",
+   "rootHash" : "3b169583b0ef810602cd220b6fc620464ba658ce235275a373e3f3f8af5ed9b5",
+   "signedTreeHead" : "rekor.sigstore.dev - 1193050959916656506\n475123548\nOxaVg7DvgQYCzSILb8YgRkumWM4jUnWjc+Pz+K9e2bU=\n\n— rekor.sigstore.dev wNI9ajBEAiBDia0LihPqFBU9kvpTas9IL2Wm1z5xZOlrO+KA0yuiGAIgGCalg0RJe9jMDE2rj8lnuAsHzmep2we4nRUYHe/Fueg=\n",
    "treeID" : "1193050959916656506",
-   "treeSize" : 469566748
+   "treeSize" : 475123548
 }
