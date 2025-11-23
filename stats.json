@@ -4,7 +4,7 @@
       "system" : "CARGO"
    },
    {
-      "packageCount" : 1894062,
+      "packageCount" : 1894074,
       "system" : "GO"
    },
    {
@@ -12,19 +12,19 @@
       "system" : "MAVEN"
    },
    {
-      "packageCount" : 3689907,
+      "packageCount" : 3689930,
       "system" : "NPM"
    },
    {
-      "packageCount" : 485743,
+      "packageCount" : 485748,
       "system" : "NUGET"
    },
    {
-      "packageCount" : 672333,
+      "packageCount" : 672336,
       "system" : "PYPI"
    },
    {
-      "packageCount" : 187220,
+      "packageCount" : 187221,
       "system" : "RUBYGEMS"
    }
 ]
