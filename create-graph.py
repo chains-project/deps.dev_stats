@@ -62,23 +62,41 @@ def extract_date(filename):
 def create_time_series():
     # Get all stats files
     files = sorted(glob.glob('history/stats_*.json'))
-    
+
+    start_date = datetime(2025, 6, 1)
+    end_date = datetime(2026, 5, 31)
+
     # Initialize data structure
     data = {
         'dates': [],
-        'CARGO': [], 'GO': [], 'MAVEN': [], 
+        'CARGO': [], 'GO': [], 'MAVEN': [],
         'NPM': [], 'NUGET': [], 'PYPI': []
     }
-    
-    # Collect data
+
+    # Collect data, skipping files where any system jumps by >50k vs previous day
+    prev_counts = {}
     for f in files:
         try:
             date = extract_date(f)
+            if date < start_date or date > end_date:
+                continue
             stats = load_stats(f)
-            
+            counts = {e['system']: e['packageCount'] for e in stats}
+
+            if prev_counts:
+                skip = any(
+                    abs(counts.get(s, v) - v) > 50000
+                    for s, v in prev_counts.items()
+                )
+                if skip:
+                    prev_counts = counts
+                    continue
+
             data['dates'].append(date)
             for entry in stats:
-                data[entry['system']].append(entry['packageCount'])
+                if entry['system'] in data:
+                    data[entry['system']].append(entry['packageCount'])
+            prev_counts = counts
         except Exception as e:
             pass
     

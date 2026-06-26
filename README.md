@@ -1,6 +1,8 @@
-longitudinal study of package repositories per <https://deps.dev/_/stats>
+# Package registry size
 
-Utils:
+Longitudinal study of package registries per <https://deps.dev/_/stats>
+
+## Utils
 
 ###  get_package_stats.py
 
@@ -34,4 +36,6 @@ Something happened in NPM counting
 
 Max derivative is Cargo
 
+## Dependency-graph visibility gap
 
+The deps.dev package counts index only packages that appear in at least one resolved dependency graph. Cross-referencing with PyPI's full upload metadata (BigQuery `bigquery-public-data.pypi.distribution_metadata`) reveals a substantial visibility gap. In June 2025 deps.dev reported approximately 613,000 PyPI packages, growing to ~778,000 by May 2026 (+27%). The absolute monthly new-package rate from BigQuery (~12,000–25,000/month over the same window) is roughly four times higher than the monthly increments visible in deps.dev (~3,000–22,000/month). Package-count metrics derived from dependency-graph indexes substantially underestimate the true rate of package creation on PyPI.
